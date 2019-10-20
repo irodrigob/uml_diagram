@@ -3,6 +3,12 @@ A través del siguiente [proyecto](https://gitlab.com/geertjanklaps/abap-openapi
 
 Investigando un poco descubir que había otros proyectos pero al instalar me dio muchos problemas de compilación y además su arquitectura no me gusto. Fue en ese momento que pense en hacerlo yo mismo aprovechando que tenía parte del trabajo realizado gracias a este [proyecto](https://github.com/irodrigob/reference_object), que fue unos de los primeros que subi a Github. / Investigating a little to discover that there were other projects but when installing it gave me a lot of compilation problems and besides his architecture i didn't like it. It was at that moment that i thought about doing it myself taking advantage of the fact that I had part of the work done thanks to this [project](https://github.com/irodrigob/reference_object), which was one of the first ones that went up to Github.
 
+ # Limitaciones / Limitations
+ 
+ El programa solo busca el primer nivel de referencias de utilización de clases, interfaces y programa. Ampliando el nivel se podría obtener objetos de otros paquetes para crear un diagrama UML más completo. / The program only looks for the first level of references of use of classes, interfaces and program. Expanding the level you could obtain objects from other packages to create a more complete UML diagram.
+ 
+ Además la clase de referencia también objetos objetos de diccionario, que se podría llegar a incluir dentro del diagrama UML. / In addition the reference class also objects dictionary objects, which could be included in the UML diagram.
+ 
 # Dependencias/Dependencies
 
 Hay que tener instalado el repositorio "http_services"(https://github.com/irodrigob/reference_object) para su funcionamiento. / The "http_services" repository (https://github.com/irodrigob/reference_object) must be installed for its operation.
